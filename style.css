@@ -1,0 +1,13 @@
+body {
+    font-family: "Arial", sans-serif;
+    font-size: 24px;
+    color:black;
+    background: rgb(215, 250, 215) url(img/1626428554_0-640x360.jpg)
+    no-repeat 100% 0;
+    width: 200px;
+}
+
+h1 {
+    color: darkgoldenrod;
+    text-align: center;
+}
