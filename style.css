@@ -2,12 +2,19 @@ body {
     font-family: "Arial", sans-serif;
     font-size: 24px;
     color:black;
-    background: rgb(215, 250, 215)
-    no-repeat 100% 0;
-    width: 200px;
+    background: rgb(0, 68, 0) url(img/bg.jpg)
+    center top no-repeat;
 }
 
 h1 {
-    color: darkgoldenrod;
-    text-align: center;
+    color:gold;
+}
+
+p{
+    margin: 0 auto;
+    width: 1000px;
+    color:antiquewhite;
+}
+#high-lights {
+    background-color:chartreuse;
 }
