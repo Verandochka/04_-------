@@ -2,19 +2,32 @@ body {
     font-family: "Arial", sans-serif;
     font-size: 24px;
     color:black;
-    background: rgb(0, 68, 0) url(img/bg.jpg)
-    center top no-repeat;
+    background: #326717 url(img/bg.jpg)
+    repeat 50%;
 }
 
-h1 {
+header {
     color:gold;
+    margin: 0 auto;
 }
 
 p{
     margin: 0 auto;
-    width: 1000px;
     color:antiquewhite;
+    background-color: #326717;
 }
-#high-lights {
-    background-color:chartreuse;
+#highlights {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.highlights-content{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.highlights-content article{
+    width: 500px;
 }
